@@ -1,0 +1,10 @@
+/*styles.css*/
+
+/*button font size and font family*/
+.left, .right {font-size: 28px; font-family: Helvetica, "Times New Roman", sans-serif;}
+
+/*left button font color and backgorund color*/
+.left {color: white;background-color: black;}
+
+/*right button background color*/
+.right {background-color: yellow;}
