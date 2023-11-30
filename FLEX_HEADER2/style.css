@@ -1,0 +1,79 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
+}
+
+.header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /*change header to flex*/
+  display:flex;
+  /*align items in header to center*/
+  align-items: center;
+  /*seperate the left and right items*/
+  justify-content: space-between;
+  /*add padding to content*/
+  padding: 8px;
+}
+
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.right{
+    /*change display of right items to flex*/
+    display:flex;
+    /*add gap between items*/
+    gap: 16px;
+}
+
+.left{
+    /*change display of left items to flex*/
+    display: flex;
+    /*add gap between items*/
+    gap:16px;
+}
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+ul {
+  list-style-type: none;
+  /*change list to display flex*/
+  display: flex;
+  /*remove margin and padding on list*/
+  margin: 0;
+  padding: 0;
+  /*add gap of 16px between links*/
+  gap: 16px;
+  /*center list content*/
+  flex-wrap: wrap;
+  align-content: center;
+}
